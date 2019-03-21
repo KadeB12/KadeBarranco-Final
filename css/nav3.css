@@ -10,7 +10,7 @@ a{
     text-align: center;
 }
 div.center a:hover{
-border-bottom: 3px solid #E2C83D;
+border-top: 3px solid #E2C83D;
 padding-top: 15px;
 padding-bottom: 15px;
 

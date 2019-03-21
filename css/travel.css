@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://media.istockphoto.com/vectors/abstract-print-animal-seamless-pattern-vector-id478106574?k=6&m=478106574&s=612x612&w=0&h=P4ue7mnnhu6tWobUet5ZStFy5mie7McwUm1tQWTGwbk=);
+  }
+  div{
+    margin: 20px;
+    background-size: cover;
+  }
+  img{
+    max-width: 100%;
+   
+  }
+  .card{
+      background: white;
+      padding: 2%;
+      border-radius: 10px;
+    margin: 2%;
+  }
+  section {
+      display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  h2{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+  }
+  p{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  @media (min-width: 400px) {
+      .card {
+          width: 42%;
+      }
+  @media (min-width: 900px) {
+      .card {
+          width: 25%;
+      }
