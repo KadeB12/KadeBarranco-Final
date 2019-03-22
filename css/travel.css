@@ -1,36 +1,98 @@
-body{
-    background-image: url(https://media.istockphoto.com/vectors/abstract-print-animal-seamless-pattern-vector-id478106574?k=6&m=478106574&s=612x612&w=0&h=P4ue7mnnhu6tWobUet5ZStFy5mie7McwUm1tQWTGwbk=);
-  }
+body{font-family: 'Rubik', sans-serif;
+     }
   div{
+    padding: 20px;
     margin: 20px;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
-  img{
-    max-width: 100%;
-   
-  }
-  .card{
-      background: white;
-      padding: 2%;
-      border-radius: 10px;
-    margin: 2%;
+#iceland{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/rolands-varsbergs-1436787-unsplash.png);
+  background-repeat: no-repeat;
+}
+#maldives{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/shifaaz-shamoon-370863-unsplash.png);
+}
+#italy{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/eberhard-grossgasteiger-382452-unsplash.png);
+}
+#chippewafalls{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/emily-toycen-530039-unsplash.png);
+}
+
+.card{
+    background: white;
+
+    border-radius: 10px;
+
+    height: 400px;
+    width:240px;
   }
   section {
-      display: flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
   h2{
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 0;
   }
-  p{
-    font-family: 'Ubuntu', sans-serif;
+  h3{
+    color: white;
+    text-align: center;
+    font-size: .5em;
   }
-  @media (min-width: 400px) {
-      .card {
-          width: 42%;
-      }
-  @media (min-width: 900px) {
-      .card {
-          width: 25%;
-      }
+  a{
+    text-align: center;
+  }
+  .button{
+    text-decoration: none;
+    color:white;
+    background: #efd85d;
+    padding: 10px 50px;
+    border-radius:10px;
+}
+
+  @media (max-width: 500px) {
+    div{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      margin: 10px;
+      height: 150px;
+      width:100px;
+    }
+    h2{
+      color: white;
+      text-align: center;
+      margin-top: 0;
+      font-size: 12px;
+    }
+    h3{
+      color: white;
+      text-align: center;
+      font-size: 5px;
+    }
+    a{
+      font-size: 8px;
+    }
+    .button{
+      text-decoration: none;
+      color:white;
+      background: #efd85d;
+      padding: 8px 15px;
+      border-radius:10px;
+  }
+  }

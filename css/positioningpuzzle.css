@@ -1,0 +1,29 @@
+section{
+    display: flex; 
+    position: relative;  
+}
+img{
+    position: absolute;
+}
+#piece2{
+    top: 195px;
+    
+}
+#piece3{
+    top: 196px;
+
+}
+#piece4{
+    right: 222px;
+    
+}
+#piece5{
+    right: 222px;
+    top:237px;
+
+}
+#piece6{
+    right: 225px;
+    top: 427px;
+    
+}
